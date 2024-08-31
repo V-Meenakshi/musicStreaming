@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: linear-gradient(rgb(3, 3, 3), rgb(151, 64, 119));
+  }
+  .Sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+  .card{
+    background-image: linear-gradient(rgb(157, 46, 137), rgb(210, 38, 147));
+  }
+  

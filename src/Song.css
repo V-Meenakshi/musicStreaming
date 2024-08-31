@@ -1,0 +1,62 @@
+/* Song.css */
+
+body {
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(3, 3, 3), rgb(151, 64, 119));
+}
+
+.song-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(8, 176, 232, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    height: 525px;
+    position: relative; /* Added for positioning the actions */
+}
+
+.song-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    position: absolute; /* Positioning to the bottom right */
+    right: 20px; /* Adjust to your liking */
+    bottom: 60px; /* Adjust to your liking */
+}
+
+.control-button, .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.control-button img, .action-button img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+}
