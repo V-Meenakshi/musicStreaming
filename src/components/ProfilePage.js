@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import '../App.css';
 const ProfilePage = () => {
   const [profileData, setProfileData] = useState({
     profilePic: 'https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg',

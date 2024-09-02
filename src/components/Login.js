@@ -1,6 +1,6 @@
 import {useContext,useEffect,useRef} from "react";
-import { GlobalContext } from './App';
-import './App.css';
+import { GlobalContext } from '../App';
+import '../App.css';
 
 function Login(){
     const mailRef = useRef(null);

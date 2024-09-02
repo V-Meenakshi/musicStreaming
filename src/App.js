@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createContext, useState } from "react";
-import Home from "./Home";
-import ProfilePage from "./ProfilePage";
+import Home from "./components/Home";
+import ProfilePage from "./components/ProfilePage";
 
 export const GlobalContext = createContext();
 function App() {
