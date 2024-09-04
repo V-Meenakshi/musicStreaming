@@ -7,13 +7,13 @@ function SideBar() {
       {/* Sidebar Container */}
       <div className="bg-white bg-opacity-25 m-2 text-white d-flex flex-column justify-content-around rounded" style={{ height: '15%', width: '300px' }}>
         {/* Home Section */}
-        <div className="d-flex align-items-center px-3 py-2 cursor-pointer">
+        <div className="d-flex align-items-center px-3 py-2" style={{cursor:'pointer'}}>
           <img className="me-2" src={assets.home_icon} alt="Home Icon" style={{ width: '24px' }} />
           <p className="mb-0 fw-bold">Home</p>
         </div>
 
         {/* Search Section */}
-        <div className="d-flex align-items-center px-3 py-2 cursor-pointer">
+        <div className="d-flex align-items-center px-3 py-2" style={{cursor:'pointer'}}>
           <img className="me-2" src={assets.search_icon} alt="Search Icon" style={{ width: '24px' }} />
           <p className="mb-0 fw-bold">Search</p>
         </div>
@@ -27,7 +27,7 @@ function SideBar() {
             <img className="me-2" src={assets.stack_icon} alt="stack Icon" style={{ width: '24px' }} />
             <p className="mb-0 fw-bold">Your Library</p>
           </div>
-          <div className="d-flex align-items-center justify-content-end cursor-pointer">
+          <div className="d-flex align-items-center justify-content-end" style={{cursor:'pointer'}}>
             <img className="me-2" src={assets.arrow_icon} alt="arrow Icon" style={{ width: '16px' }} />
             <img className="me-2" src={assets.plus_icon} alt="plus Icon" style={{ width: '16px' }} />
           </div>
