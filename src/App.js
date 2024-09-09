@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createContext, useState } from "react";
 import Home from "./components/Home";
 import ProfilePage from "./components/ProfilePage";
+import SignUp from "./components/SignUp";
 // import Login from "./components/auth/login";
 // import { setClientToken } from "./components/spotify";
 
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     {/* <Route path="/favourites" element={} />
                     <Route path="/downloads" element={} /> */}
+                    <Route path="/SignUp" element={<SignUp />}/>
                     <Route path="/profile" element={<ProfilePage/>} />
                 </Routes>
             </BrowserRouter>

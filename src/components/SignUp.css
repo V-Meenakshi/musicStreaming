@@ -14,4 +14,7 @@ body {
   .card{
     background-image: linear-gradient(rgb(157, 46, 137), rgb(210, 38, 147));
   }
+  .container{
+    background-color: rgb(25, 1, 1);
+  }
   
