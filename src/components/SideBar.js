@@ -17,8 +17,8 @@ function SideBar() {
           <img className="me-2" src={assets.search_icon} alt="Search Icon" style={{ width: '24px' }} />
           <p className="mb-0 fw-bold">Search</p>
         </div>
-      </div>
-
+      </div> 
+ 
       {/* Library and Playlist Container */}
       <div className="bg-white bg-opacity-25 m-2 mb-0 text-white d-flex flex-column justify-content-top rounded" style={{ height: '81.5%', width: '300px' }}>
         {/* Your Library Section */}
