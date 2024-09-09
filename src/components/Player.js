@@ -4,7 +4,7 @@ function Player() {
     return (
         <div className="bg-black bg-opacity-50 d-flex" style={{width:"100%",height:"10%"}}>
             <div className="m-2 d-flex">
-                <img src={assets.shapeOfYou_icon} style={{width:'63px'}} alt ="shape of you icon"/>
+                <img src={assets.shapeOfYou_icon} style={{width:'63px'}} alt="shape of you icon"/>
                 <div>
                     <p className="mx-2 my-auto lead">Shape of You</p>
                     <p className="mx-2 my-auto">Ed Sheeran</p>
@@ -30,4 +30,5 @@ function Player() {
         </div>
     )
 }
+
 export default Player;

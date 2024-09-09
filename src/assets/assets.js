@@ -12,6 +12,8 @@ import next_icon from './nextBtn.png';
 import play_icon from './play.png';
 import loop_icon from './loop.png';
 import shuffle_icon from './shuffle.png';
+import rightArrow_icon from './rightArrow.png';
+import leftArrow_icon from './leftArrow.png';
 
 export const assets = {
     download_icon,
@@ -27,5 +29,7 @@ export const assets = {
     next_icon,
     play_icon,
     loop_icon,
-    shuffle_icon
+    shuffle_icon,
+    leftArrow_icon,
+    rightArrow_icon
 }
